@@ -10,6 +10,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "regsinternal.h"
 #include "system.h"
 #include "usb.h"
@@ -123,6 +124,8 @@ static void usblog_write(const uint8_t *data, int len)
 static void sdlog_write(const uint8_t *data, int len)
 {
 	fwrite(data, 1, len, sdlog_file);
+	fflush(sdlog_file);
+	fsync(fileno(sdlog_file));
 }
 
 /*********************************************************************
@@ -294,6 +297,14 @@ static int __fat_write(void *file, uint8_t *ptr, int len)
 	return written;
 }
 
+static int __fat_sync(void *file)
+{
+	FRESULT res = f_sync(file);
+	if (res != FR_OK)
+		return -1;
+	return 0;
+}
+
 static int __fat_close(void *file)
 {
 	FRESULT res = f_close(file);
@@ -357,6 +368,7 @@ static filesystem_t fat_fs = {
 	__fat_lseek,
 	__fat_read,
 	__fat_write,
+	__fat_sync,
 	__fat_close,
 	__fat_unlink,
 	__fat_findfirst,

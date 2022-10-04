@@ -1295,6 +1295,7 @@ static filesystem_t dragon_fs = {
     __lseek,
     __read,
     0,
+    0,
     __close,
     0,
     __findfirst,

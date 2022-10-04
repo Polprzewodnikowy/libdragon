@@ -1204,6 +1204,47 @@ int write( int file, char *ptr, int len )
 }
 
 /**
+ * @brief Sync a file
+ *
+ * @param[in] fildes
+ *            File handle of the file to sync
+ *
+ * @return 0 on success or a negative value on error.
+ */
+int fsync( int fildes )
+{
+    if( fildes == STDIN_FILENO ||
+        fildes == STDOUT_FILENO ||
+        fildes == STDERR_FILENO )
+    {
+        /* Can't sync input/output buffers */
+        errno = EBADF;
+        return -1;
+    }
+    else
+    {
+        filesystem_t *fs = __get_fs_pointer_by_handle( fildes );
+        void *handle = __get_fs_handle( fildes );
+
+        if( fs == 0 )
+        {
+            errno = EINVAL;
+            return -1;
+        }
+
+        if( fs->sync == 0 )
+        {
+            /* Filesystem doesn't support sync */
+            errno = ENOSYS;
+            return -1;
+        }
+
+        /* Tell the filesystem to sync the file */
+        return fs->sync( handle );
+    }
+}
+
+/**
  * @brief Find the first file in a directory
  *
  * This function should be called to start enumerating a directory or whenever

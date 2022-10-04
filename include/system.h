@@ -95,6 +95,15 @@ typedef struct
      */
     int (*write)( void *file, uint8_t *ptr, int len );
     /** 
+     * @brief Function to call when performing a sync operation
+     *
+     * @param[in] file
+     *            Arbitrary file handle returned by #filesystem_t::open
+     *
+     * @return 0 on success or a negative value on failure.
+     */
+    int (*sync)( void *file );
+    /** 
      * @brief Function to call when performing a close operation
      *
      * @param[in] file
