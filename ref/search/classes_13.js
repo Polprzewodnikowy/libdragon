@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ym5header_0',['ym5header',['../ym64_8c.html#structym5header',1,'']]],
-  ['ym64player_5fsonginfo_5ft_1',['ym64player_songinfo_t',['../ym64_8h.html#structym64player__songinfo__t',1,'']]],
-  ['ym64player_5ft_2',['ym64player_t',['../ym64_8h.html#structym64player__t',1,'']]]
+  ['wav64_5fheader_5ft_0',['wav64_header_t',['../structwav64__header__t.html',1,'']]],
+  ['wav64_5ft_1',['wav64_t',['../wav64_8h.html#structwav64__t',1,'']]],
+  ['waveform_5ft_2',['waveform_t',['../mixer_8h.html#structwaveform__t',1,'']]]
 ];
