@@ -70,6 +70,7 @@ typedef struct rdpq_font_s {
     uint16_t ellipsis_glyph;            ///< Index of the ellipsis glyph
     uint16_t ellipsis_reps;             ///< Number of ellipsis glyphs to draw
     uint16_t ellipsis_advance;          ///< Advance of the ellipsis character
+    uint32_t missing_glyph;             ///< Index of the missing character glyph
     uint32_t num_ranges;                ///< Number of ranges in the font
     uint32_t num_glyphs;                ///< Number of glyphs in the font
     uint32_t num_atlases;               ///< Number of atlases in the font

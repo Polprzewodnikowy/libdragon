@@ -35,6 +35,7 @@ int *flag_ranges = NULL;
 const char *n64_inst = NULL;
 int flag_ellipsis_cp = 0x002E;
 int flag_ellipsis_repeats = 3;
+int flag_missing_cp = 0x003F;
 
 void print_args( char * name )
 {
@@ -46,6 +47,7 @@ void print_args( char * name )
     fprintf(stderr, "   -v/--verbose              Verbose output\n");
     fprintf(stderr, "   --no-kerning              Do not export kerning information\n");
     fprintf(stderr, "   --ellipsis <cp>,<reps>    Select glyph and repetitions to use for ellipsis (default: 2E,3) \n");
+    fprintf(stderr, "   --missing <cp>            Select glyph to use for missing characters (default: 3F) \n");
     fprintf(stderr, "   -c/--compress <level>     Compress output files (default: %d)\n", DEFAULT_COMPRESSION);
     fprintf(stderr, "   -d/--debug                Dump also debug images\n");
     fprintf(stderr, "\n");
@@ -84,6 +86,7 @@ void n64font_write(rdpq_font_t *fnt, FILE *out)
     w16(out, fnt->ellipsis_glyph);
     w16(out, fnt->ellipsis_reps);
     w16(out, fnt->ellipsis_advance);
+    w32(out, fnt->missing_glyph);
     w32(out, fnt->num_ranges);
     w32(out, fnt->num_glyphs);
     w32(out, fnt->num_atlases);
@@ -320,11 +323,22 @@ void n64font_add_ellipsis(rdpq_font_t *fnt, int ellipsis_cp, int ellipsis_repeat
     fnt->ellipsis_glyph = ellipsis_glyph;
 }
 
+void n64font_add_missing(rdpq_font_t *fnt, int missing_cp)
+{
+    int missing_glyph = n64font_glyph(fnt, missing_cp);
+    if (missing_glyph < 0) {
+        fprintf(stderr, "Error: missing codepoint 0x%04x not found in font\n", missing_cp);
+        exit(1);
+    }
+
+    fnt->missing_glyph = missing_glyph;
+}
+
 rdpq_font_t* n64font_alloc(int point_size, int ascent, int descent, int line_gap, int space_width)
 {
     rdpq_font_t *fnt = calloc(1, sizeof(rdpq_font_t));
     memcpy(fnt->magic, FONT_MAGIC, 3);
-    fnt->version = 4;
+    fnt->version = 5;
     fnt->point_size = point_size;
     fnt->ascent = ascent;
     fnt->descent = descent;
@@ -596,6 +610,8 @@ int convert_ttf(const char *infn, const char *outfn, int point_size, int *ranges
     if (flag_ellipsis_repeats > 0)
         n64font_add_ellipsis(font, flag_ellipsis_cp, flag_ellipsis_repeats);
 
+    n64font_add_missing(font, flag_missing_cp);
+
     // Write output file
     FILE *out = fopen(outfn, "wb");
     if (!out) {
@@ -670,6 +686,18 @@ int main(int argc, char *argv[])
                 }
                 flag_ellipsis_cp = cp;
                 flag_ellipsis_repeats = repeats;
+            } else if (!strcmp(argv[i], "--missing")) {
+                if (++i == argc) {
+                    fprintf(stderr, "missing argument for %s\n", argv[i-1]);
+                    return 1;
+                }
+                int cp;
+                char extra;
+                if (sscanf(argv[i], "%x%c", &cp, &extra) != 1) {
+                    fprintf(stderr, "invalid argument for %s: %s\n", argv[i-1], argv[i]);
+                    return 1;
+                }
+                flag_missing_cp = cp;
             } else if (!strcmp(argv[i], "-c") || !strcmp(argv[i], "--compress")) {
                 // Optional compression level
                 if (i+1 < argc && argv[i+1][1] == 0) {

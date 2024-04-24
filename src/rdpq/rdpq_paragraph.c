@@ -174,7 +174,10 @@ void rdpq_paragraph_builder_span(const char *utf8_text, int nbytes)
     while (utf8_text < end || next_index >= 0) {
         int16_t index = next_index; next_index = -1;
         if (index < 0) index = UTF8_DECODE_NEXT();
-        if (UNLIKELY(index < 0)) continue;
+        if (UNLIKELY(index < 0)) {
+            if (builder.font->missing_glyph == 0) continue;
+            index = builder.font->missing_glyph;
+        };
 
         float xadvance; int8_t xoff2; bool has_kerning; uint8_t atlas_id;
         __rdpq_font_glyph_metrics(fnt, index, &xadvance, NULL, &xoff2, &has_kerning, &atlas_id);
