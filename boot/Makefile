@@ -48,6 +48,11 @@ N64_CFLAGS += -DNDEBUG -DCOMPAT
 OBJS += build/loader_compat.o 
 IPL3_ROM=bin/ipl3_compat.z64
 IPL3_LDSCRIPT=ipl3_compat.ld
+else ifeq ($(MEMTEST),1)
+N64_CFLAGS += -DMEMTEST
+OBJS += build/memtest.o build/debug.o build/boot_trampoline.o
+IPL3_ROM=bin/ipl3_memtest.z64
+IPL3_LDSCRIPT=ipl3_memtest.ld
 else
 OBJS += build/loader.o build/debug.o build/boot_trampoline.o 
 IPL3_ROM=bin/ipl3_dev.z64

@@ -1,0 +1,2320 @@
+[Debug]: Started
+Libdragon IPL3     
+rdram_reg_init: IO version  00000002   
+Chip:   00000000   
+	Manufacturer:  00000005   
+	Geometry:  00000001    00000009    0000000B   
+	Current:   00000019   
+	RAS:   040A1C10   
+Chip:   00000002   
+	Manufacturer:  00000005   
+	Geometry:  00000001    00000009    0000000B   
+	Current:   00000019   
+	RAS:   040A1C10   
+Chip:   00000004   
+	Manufacturer:  00000005   
+	Geometry:  00000001    00000009    0000000B   
+	Current:   0000001E   
+	RAS:   040A1C10   
+Chip:   00000006   
+	Manufacturer:  00000005   
+	Geometry:  00000001    00000009    0000000B   
+	Current:   0000001E   
+	RAS:   040A1C10   
+Total memory:   00800000   
+Memtest start      
+Initial zero test      
+Testing memory at:  80001000   
+Testing memory at:  80002000   
+Testing memory at:  80003000   
+Testing memory at:  80004000   
+Testing memory at:  80005000   
+Testing memory at:  80006000   
+Testing memory at:  80007000   
+Testing memory at:  80008000   
+Testing memory at:  80009000   
+Testing memory at:  8000A000   
+Testing memory at:  8000B000   
+Testing memory at:  8000C000   
+Testing memory at:  8000D000   
+Testing memory at:  8000E000   
+Testing memory at:  8000F000   
+Testing memory at:  80010000   
+Testing memory at:  80011000   
+Testing memory at:  80012000   
+Testing memory at:  80013000   
+Testing memory at:  80014000   
+Testing memory at:  80015000   
+Testing memory at:  80016000   
+Testing memory at:  80017000   
+Testing memory at:  80018000   
+Testing memory at:  80019000   
+Testing memory at:  8001A000   
+Testing memory at:  8001B000   
+Testing memory at:  8001C000   
+Testing memory at:  8001D000   
+Testing memory at:  8001E000   
+Testing memory at:  8001F000   
+Testing memory at:  80020000   
+Testing memory at:  80021000   
+Testing memory at:  80022000   
+Testing memory at:  80023000   
+Testing memory at:  80024000   
+Testing memory at:  80025000   
+Testing memory at:  80026000   
+Testing memory at:  80027000   
+Testing memory at:  80028000   
+Testing memory at:  80029000   
+Testing memory at:  8002A000   
+Testing memory at:  8002B000   
+Testing memory at:  8002C000   
+Testing memory at:  8002D000   
+Testing memory at:  8002E000   
+Testing memory at:  8002F000   
+Testing memory at:  80030000   
+Testing memory at:  80031000   
+Testing memory at:  80032000   
+Testing memory at:  80033000   
+Testing memory at:  80034000   
+Testing memory at:  80035000   
+Testing memory at:  80036000   
+Testing memory at:  80037000   
+Testing memory at:  80038000   
+Testing memory at:  80039000   
+Testing memory at:  8003A000   
+Testing memory at:  8003B000   
+Testing memory at:  8003C000   
+Testing memory at:  8003D000   
+Testing memory at:  8003E000   
+Testing memory at:  8003F000   
+Testing memory at:  80040000   
+Testing memory at:  80041000   
+Testing memory at:  80042000   
+Testing memory at:  80043000   
+Testing memory at:  80044000   
+Testing memory at:  80045000   
+Testing memory at:  80046000   
+Testing memory at:  80047000   
+Testing memory at:  80048000   
+Testing memory at:  80049000   
+Testing memory at:  8004A000   
+Testing memory at:  8004B000   
+Testing memory at:  8004C000   
+Testing memory at:  8004D000   
+Testing memory at:  8004E000   
+Testing memory at:  8004F000   
+Testing memory at:  80050000   
+Testing memory at:  80051000   
+Testing memory at:  80052000   
+Testing memory at:  80053000   
+Testing memory at:  80054000   
+Testing memory at:  80055000   
+Testing memory at:  80056000   
+Testing memory at:  80057000   
+Testing memory at:  80058000   
+Testing memory at:  80059000   
+Testing memory at:  8005A000   
+Testing memory at:  8005B000   
+Testing memory at:  8005C000   
+Testing memory at:  8005D000   
+Testing memory at:  8005E000   
+Testing memory at:  8005F000   
+Testing memory at:  80060000   
+Testing memory at:  80061000   
+Testing memory at:  80062000   
+Testing memory at:  80063000   
+Testing memory at:  80064000   
+Testing memory at:  80065000   
+Testing memory at:  80066000   
+Testing memory at:  80067000   
+Testing memory at:  80068000   
+Testing memory at:  80069000   
+Testing memory at:  8006A000   
+Testing memory at:  8006B000   
+Testing memory at:  8006C000   
+Testing memory at:  8006D000   
+Testing memory at:  8006E000   
+Testing memory at:  8006F000   
+Testing memory at:  80070000   
+Testing memory at:  80071000   
+Testing memory at:  80072000   
+Testing memory at:  80073000   
+Testing memory at:  80074000   
+Testing memory at:  80075000   
+Testing memory at:  80076000   
+Testing memory at:  80077000   
+Testing memory at:  80078000   
+Testing memory at:  80079000   
+Testing memory at:  8007A000   
+Testing memory at:  8007B000   
+Testing memory at:  8007C000   
+Testing memory at:  8007D000   
+Testing memory at:  8007E000   
+Testing memory at:  8007F000   
+Testing memory at:  80080000   
+Testing memory at:  80081000   
+Testing memory at:  80082000   
+Testing memory at:  80083000   
+Testing memory at:  80084000   
+Testing memory at:  80085000   
+Testing memory at:  80086000   
+Testing memory at:  80087000   
+Testing memory at:  80088000   
+Testing memory at:  80089000   
+Testing memory at:  8008A000   
+Testing memory at:  8008B000   
+Testing memory at:  8008C000   
+Testing memory at:  8008D000   
+Testing memory at:  8008E000   
+Testing memory at:  8008F000   
+Testing memory at:  80090000   
+Testing memory at:  80091000   
+Testing memory at:  80092000   
+Testing memory at:  80093000   
+Testing memory at:  80094000   
+Testing memory at:  80095000   
+Testing memory at:  80096000   
+Testing memory at:  80097000   
+Testing memory at:  80098000   
+Testing memory at:  80099000   
+Testing memory at:  8009A000   
+Testing memory at:  8009B000   
+Testing memory at:  8009C000   
+Testing memory at:  8009D000   
+Testing memory at:  8009E000   
+Testing memory at:  8009F000   
+Testing memory at:  800A0000   
+Testing memory at:  800A1000   
+Testing memory at:  800A2000   
+Testing memory at:  800A3000   
+Testing memory at:  800A4000   
+Testing memory at:  800A5000   
+Testing memory at:  800A6000   
+Testing memory at:  800A7000   
+Testing memory at:  800A8000   
+Testing memory at:  800A9000   
+Testing memory at:  800AA000   
+Testing memory at:  800AB000   
+Testing memory at:  800AC000   
+Testing memory at:  800AD000   
+Testing memory at:  800AE000   
+Testing memory at:  800AF000   
+Testing memory at:  800B0000   
+Testing memory at:  800B1000   
+Testing memory at:  800B2000   
+Testing memory at:  800B3000   
+Testing memory at:  800B4000   
+Testing memory at:  800B5000   
+Testing memory at:  800B6000   
+Testing memory at:  800B7000   
+Testing memory at:  800B8000   
+Testing memory at:  800B9000   
+Testing memory at:  800BA000   
+Testing memory at:  800BB000   
+Testing memory at:  800BC000   
+Testing memory at:  800BD000   
+Testing memory at:  800BE000   
+Testing memory at:  800BF000   
+Testing memory at:  800C0000   
+Testing memory at:  800C1000   
+Testing memory at:  800C2000   
+Testing memory at:  800C3000   
+Testing memory at:  800C4000   
+Testing memory at:  800C5000   
+Testing memory at:  800C6000   
+Testing memory at:  800C7000   
+Testing memory at:  800C8000   
+Testing memory at:  800C9000   
+Testing memory at:  800CA000   
+Testing memory at:  800CB000   
+Testing memory at:  800CC000   
+Testing memory at:  800CD000   
+Testing memory at:  800CE000   
+Testing memory at:  800CF000   
+Testing memory at:  800D0000   
+Testing memory at:  800D1000   
+Testing memory at:  800D2000   
+Testing memory at:  800D3000   
+Testing memory at:  800D4000   
+Testing memory at:  800D5000   
+Testing memory at:  800D6000   
+Testing memory at:  800D7000   
+Testing memory at:  800D8000   
+Testing memory at:  800D9000   
+Testing memory at:  800DA000   
+Testing memory at:  800DB000   
+Testing memory at:  800DC000   
+Testing memory at:  800DD000   
+Testing memory at:  800DE000   
+Testing memory at:  800DF000   
+Testing memory at:  800E0000   
+Testing memory at:  800E1000   
+Testing memory at:  800E2000   
+Testing memory at:  800E3000   
+Testing memory at:  800E4000   
+Testing memory at:  800E5000   
+Testing memory at:  800E6000   
+Testing memory at:  800E7000   
+Testing memory at:  800E8000   
+Testing memory at:  800E9000   
+Testing memory at:  800EA000   
+Testing memory at:  800EB000   
+Testing memory at:  800EC000   
+Testing memory at:  800ED000   
+Testing memory at:  800EE000   
+Testing memory at:  800EF000   
+Testing memory at:  800F0000   
+Testing memory at:  800F1000   
+Testing memory at:  800F2000   
+Testing memory at:  800F3000   
+Testing memory at:  800F4000   
+Testing memory at:  800F5000   
+Testing memory at:  800F6000   
+Testing memory at:  800F7000   
+Testing memory at:  800F8000   
+Testing memory at:  800F9000   
+Testing memory at:  800FA000   
+Testing memory at:  800FB000   
+Testing memory at:  800FC000   
+Testing memory at:  800FD000   
+Testing memory at:  800FE000   
+Testing memory at:  800FF000   
+Testing memory at:  80100000   
+Testing memory at:  80101000   
+Testing memory at:  80102000   
+Memtest error address/value(h,l)/expected(h,l)  80102918    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80102C18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80102CB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80102CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80102E18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80102E78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80102EF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80103000   
+Memtest error address/value(h,l)/expected(h,l)  80103838    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103A78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103AD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103B78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103C78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103E78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103F18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103FD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103FF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80103FF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80104000   
+Testing memory at:  80105000   
+Testing memory at:  80106000   
+Memtest error address/value(h,l)/expected(h,l)  80106FB0    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80106FB8    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Testing memory at:  80107000   
+Memtest error address/value(h,l)/expected(h,l)  80107858    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  801078D8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80107938    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80107DD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80107DF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80107E58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80108000   
+Testing memory at:  80109000   
+Testing memory at:  8010A000   
+Memtest error address/value(h,l)/expected(h,l)  8010ACD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010AD18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010AD38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010AF18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010AFF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8010B000   
+Memtest error address/value(h,l)/expected(h,l)  8010B8B8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010BA78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010BC58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010BE58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010BE98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8010C000   
+Testing memory at:  8010D000   
+Testing memory at:  8010E000   
+Memtest error address/value(h,l)/expected(h,l)  8010EC38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010EC78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010ECF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010ED18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010EDD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010EE18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010EDF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010EF38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010EF58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8010F000   
+Memtest error address/value(h,l)/expected(h,l)  8010FC58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FC98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FD78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FDB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FED8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FF38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FF78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8010FFB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80110000   
+Testing memory at:  80111000   
+Testing memory at:  80112000   
+Memtest error address/value(h,l)/expected(h,l)  80112CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80112D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80112CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80112DF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80112E38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80113000   
+Memtest error address/value(h,l)/expected(h,l)  801138B8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113898    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113938    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113A18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113B18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113BF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113C58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113DB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113E18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113E78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113ED8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113F38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80113F58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80114000   
+Testing memory at:  80115000   
+Testing memory at:  80116000   
+Memtest error address/value(h,l)/expected(h,l)  80116DF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80116E78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80116FD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80117000   
+Memtest error address/value(h,l)/expected(h,l)  801179B8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80117AB0    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80117AB8    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80117B78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80117BB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80117D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80117E18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80117FF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80118000   
+Testing memory at:  80119000   
+Testing memory at:  8011A000   
+Memtest error address/value(h,l)/expected(h,l)  8011AD38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011AD58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011AD38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011AFB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8011B000   
+Memtest error address/value(h,l)/expected(h,l)  8011B838    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011B878    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011BC38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011BDB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011BDF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011BED8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011BF78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8011C000   
+Testing memory at:  8011D000   
+Testing memory at:  8011E000   
+Memtest error address/value(h,l)/expected(h,l)  8011EC98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011EDF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011EF38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011EFD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8011F000   
+Memtest error address/value(h,l)/expected(h,l)  8011FCB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8011FCF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80120000   
+Testing memory at:  80121000   
+Testing memory at:  80122000   
+Memtest error address/value(h,l)/expected(h,l)  80122C38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80122D30    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80122D38    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80122D38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80123000   
+Memtest error address/value(h,l)/expected(h,l)  80123958    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80123A78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80123BB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80123D98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80123E98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80123E98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80124000   
+Testing memory at:  80125000   
+Testing memory at:  80126000   
+Memtest error address/value(h,l)/expected(h,l)  80126CB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80126D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80126F38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80127000   
+Memtest error address/value(h,l)/expected(h,l)  801279F8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127BD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127C78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127C98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127D58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80127F78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80128000   
+Testing memory at:  80129000   
+Testing memory at:  8012A000   
+Memtest error address/value(h,l)/expected(h,l)  8012AA30    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  8012AA38    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  8012AE10    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  8012AE18    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  8012AEB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8012B000   
+Memtest error address/value(h,l)/expected(h,l)  8012B8D8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012BC38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012BD78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012BEF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012BFB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012BFB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012BFD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8012C000   
+Testing memory at:  8012D000   
+Testing memory at:  8012E000   
+Memtest error address/value(h,l)/expected(h,l)  8012ED98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012ED78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012EFB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8012F000   
+Memtest error address/value(h,l)/expected(h,l)  8012F9D8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012FAD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012FD58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012FD38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8012FD58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80130000   
+Testing memory at:  80131000   
+Testing memory at:  80132000   
+Memtest error address/value(h,l)/expected(h,l)  80132C38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80132D30    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80132D38    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80132DD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80132FD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80133000   
+Memtest error address/value(h,l)/expected(h,l)  80133998    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80133C38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80133C58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80133C58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80133CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80133D58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80133E98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80134000   
+Testing memory at:  80135000   
+Testing memory at:  80136000   
+Memtest error address/value(h,l)/expected(h,l)  80136C78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80136C78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80136D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80136EF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80137000   
+Memtest error address/value(h,l)/expected(h,l)  801378B8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137958    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137978    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137B78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137D58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137DD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80137E18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80138000   
+Testing memory at:  80139000   
+Testing memory at:  8013A000   
+Testing memory at:  8013B000   
+Memtest error address/value(h,l)/expected(h,l)  8013BBD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8013BD58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8013BF98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8013BFF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8013C000   
+Testing memory at:  8013D000   
+Testing memory at:  8013E000   
+Memtest error address/value(h,l)/expected(h,l)  8013EE18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8013F000   
+Memtest error address/value(h,l)/expected(h,l)  8013FB58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8013FE78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8013FE78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80140000   
+Testing memory at:  80141000   
+Testing memory at:  80142000   
+Memtest error address/value(h,l)/expected(h,l)  80142E58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80143000   
+Memtest error address/value(h,l)/expected(h,l)  80143878    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  801438B0    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  801438B8    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  801439D8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80143C98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80143D78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80144000   
+Testing memory at:  80145000   
+Testing memory at:  80146000   
+Testing memory at:  80147000   
+Memtest error address/value(h,l)/expected(h,l)  80147858    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80147878    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80147918    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80147D98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80148000   
+Testing memory at:  80149000   
+Testing memory at:  8014A000   
+Testing memory at:  8014B000   
+Memtest error address/value(h,l)/expected(h,l)  8014BCB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8014BDB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8014BED8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8014BFD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8014C000   
+Testing memory at:  8014D000   
+Testing memory at:  8014E000   
+Memtest error address/value(h,l)/expected(h,l)  8014EFD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8014F000   
+Memtest error address/value(h,l)/expected(h,l)  8014FCD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8014FDD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8014FDF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80150000   
+Testing memory at:  80151000   
+Testing memory at:  80152000   
+Memtest error address/value(h,l)/expected(h,l)  80152CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80153000   
+Memtest error address/value(h,l)/expected(h,l)  80153CD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80154000   
+Testing memory at:  80155000   
+Memtest error address/value(h,l)/expected(h,l)  80155E38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80156000   
+Memtest error address/value(h,l)/expected(h,l)  80156CF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80157000   
+Memtest error address/value(h,l)/expected(h,l)  80157A98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80157B18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80157D38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80157F78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80158000   
+Testing memory at:  80159000   
+Testing memory at:  8015A000   
+Memtest error address/value(h,l)/expected(h,l)  8015AE78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8015B000   
+Memtest error address/value(h,l)/expected(h,l)  8015BE38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8015C000   
+Testing memory at:  8015D000   
+Testing memory at:  8015E000   
+Memtest error address/value(h,l)/expected(h,l)  8015EDF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8015F000   
+Memtest error address/value(h,l)/expected(h,l)  8015F978    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8015FA58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8015FDB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8015FE38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8015FF18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80160000   
+Testing memory at:  80161000   
+Testing memory at:  80162000   
+Memtest error address/value(h,l)/expected(h,l)  80162D38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80163000   
+Memtest error address/value(h,l)/expected(h,l)  80163998    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80163F38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80164000   
+Testing memory at:  80165000   
+Testing memory at:  80166000   
+Memtest error address/value(h,l)/expected(h,l)  80166ED8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80167000   
+Memtest error address/value(h,l)/expected(h,l)  80167C78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80167C58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80167DB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80168000   
+Testing memory at:  80169000   
+Testing memory at:  8016A000   
+Memtest error address/value(h,l)/expected(h,l)  8016AD98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8016AE58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8016B000   
+Memtest error address/value(h,l)/expected(h,l)  8016BBF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8016C000   
+Testing memory at:  8016D000   
+Testing memory at:  8016E000   
+Testing memory at:  8016F000   
+Memtest error address/value(h,l)/expected(h,l)  8016FC58    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8016FF38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8016FF38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80170000   
+Testing memory at:  80171000   
+Testing memory at:  80172000   
+Memtest error address/value(h,l)/expected(h,l)  80172C98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80172D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80172ED8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80173000   
+Memtest error address/value(h,l)/expected(h,l)  80173D18    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80173D98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80173FF8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80174000   
+Testing memory at:  80175000   
+Testing memory at:  80176000   
+Testing memory at:  80177000   
+Memtest error address/value(h,l)/expected(h,l)  80177FD8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80178000   
+Testing memory at:  80179000   
+Testing memory at:  8017A000   
+Memtest error address/value(h,l)/expected(h,l)  8017AD38    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8017B000   
+Memtest error address/value(h,l)/expected(h,l)  8017BB98    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8017C000   
+Testing memory at:  8017D000   
+Testing memory at:  8017E000   
+Memtest error address/value(h,l)/expected(h,l)  8017ED78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8017EDB8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8017EF78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8017F000   
+Testing memory at:  80180000   
+Testing memory at:  80181000   
+Testing memory at:  80182000   
+Testing memory at:  80183000   
+Testing memory at:  80184000   
+Testing memory at:  80185000   
+Testing memory at:  80186000   
+Testing memory at:  80187000   
+Testing memory at:  80188000   
+Testing memory at:  80189000   
+Testing memory at:  8018A000   
+Testing memory at:  8018B000   
+Testing memory at:  8018C000   
+Testing memory at:  8018D000   
+Testing memory at:  8018E000   
+Testing memory at:  8018F000   
+Testing memory at:  80190000   
+Testing memory at:  80191000   
+Testing memory at:  80192000   
+Testing memory at:  80193000   
+Testing memory at:  80194000   
+Testing memory at:  80195000   
+Testing memory at:  80196000   
+Testing memory at:  80197000   
+Testing memory at:  80198000   
+Testing memory at:  80199000   
+Testing memory at:  8019A000   
+Testing memory at:  8019B000   
+Testing memory at:  8019C000   
+Testing memory at:  8019D000   
+Testing memory at:  8019E000   
+Testing memory at:  8019F000   
+Testing memory at:  801A0000   
+Testing memory at:  801A1000   
+Testing memory at:  801A2000   
+Testing memory at:  801A3000   
+Testing memory at:  801A4000   
+Testing memory at:  801A5000   
+Testing memory at:  801A6000   
+Testing memory at:  801A7000   
+Testing memory at:  801A8000   
+Testing memory at:  801A9000   
+Testing memory at:  801AA000   
+Testing memory at:  801AB000   
+Testing memory at:  801AC000   
+Testing memory at:  801AD000   
+Testing memory at:  801AE000   
+Testing memory at:  801AF000   
+Testing memory at:  801B0000   
+Testing memory at:  801B1000   
+Testing memory at:  801B2000   
+Testing memory at:  801B3000   
+Testing memory at:  801B4000   
+Testing memory at:  801B5000   
+Testing memory at:  801B6000   
+Testing memory at:  801B7000   
+Testing memory at:  801B8000   
+Testing memory at:  801B9000   
+Testing memory at:  801BA000   
+Testing memory at:  801BB000   
+Testing memory at:  801BC000   
+Testing memory at:  801BD000   
+Testing memory at:  801BE000   
+Testing memory at:  801BF000   
+Testing memory at:  801C0000   
+Testing memory at:  801C1000   
+Testing memory at:  801C2000   
+Testing memory at:  801C3000   
+Testing memory at:  801C4000   
+Testing memory at:  801C5000   
+Testing memory at:  801C6000   
+Testing memory at:  801C7000   
+Testing memory at:  801C8000   
+Testing memory at:  801C9000   
+Testing memory at:  801CA000   
+Testing memory at:  801CB000   
+Testing memory at:  801CC000   
+Testing memory at:  801CD000   
+Testing memory at:  801CE000   
+Testing memory at:  801CF000   
+Testing memory at:  801D0000   
+Testing memory at:  801D1000   
+Testing memory at:  801D2000   
+Testing memory at:  801D3000   
+Testing memory at:  801D4000   
+Testing memory at:  801D5000   
+Testing memory at:  801D6000   
+Testing memory at:  801D7000   
+Testing memory at:  801D8000   
+Testing memory at:  801D9000   
+Testing memory at:  801DA000   
+Testing memory at:  801DB000   
+Testing memory at:  801DC000   
+Testing memory at:  801DD000   
+Testing memory at:  801DE000   
+Testing memory at:  801DF000   
+Testing memory at:  801E0000   
+Testing memory at:  801E1000   
+Testing memory at:  801E2000   
+Testing memory at:  801E3000   
+Testing memory at:  801E4000   
+Testing memory at:  801E5000   
+Testing memory at:  801E6000   
+Testing memory at:  801E7000   
+Testing memory at:  801E8000   
+Testing memory at:  801E9000   
+Testing memory at:  801EA000   
+Testing memory at:  801EB000   
+Testing memory at:  801EC000   
+Testing memory at:  801ED000   
+Testing memory at:  801EE000   
+Testing memory at:  801EF000   
+Testing memory at:  801F0000   
+Testing memory at:  801F1000   
+Testing memory at:  801F2000   
+Testing memory at:  801F3000   
+Testing memory at:  801F4000   
+Testing memory at:  801F5000   
+Testing memory at:  801F6000   
+Testing memory at:  801F7000   
+Testing memory at:  801F8000   
+Testing memory at:  801F9000   
+Testing memory at:  801FA000   
+Testing memory at:  801FB000   
+Testing memory at:  801FC000   
+Testing memory at:  801FD000   
+Testing memory at:  801FE000   
+Testing memory at:  801FF000   
+Testing memory at:  80200000   
+Testing memory at:  80201000   
+Testing memory at:  80202000   
+Testing memory at:  80203000   
+Testing memory at:  80204000   
+Testing memory at:  80205000   
+Testing memory at:  80206000   
+Testing memory at:  80207000   
+Testing memory at:  80208000   
+Testing memory at:  80209000   
+Testing memory at:  8020A000   
+Testing memory at:  8020B000   
+Memtest error address/value(h,l)/expected(h,l)  8020BA68    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8020C000   
+Testing memory at:  8020D000   
+Testing memory at:  8020E000   
+Testing memory at:  8020F000   
+Testing memory at:  80210000   
+Testing memory at:  80211000   
+Testing memory at:  80212000   
+Testing memory at:  80213000   
+Testing memory at:  80214000   
+Testing memory at:  80215000   
+Testing memory at:  80216000   
+Testing memory at:  80217000   
+Testing memory at:  80218000   
+Testing memory at:  80219000   
+Testing memory at:  8021A000   
+Testing memory at:  8021B000   
+Testing memory at:  8021C000   
+Testing memory at:  8021D000   
+Testing memory at:  8021E000   
+Testing memory at:  8021F000   
+Testing memory at:  80220000   
+Testing memory at:  80221000   
+Testing memory at:  80222000   
+Testing memory at:  80223000   
+Testing memory at:  80224000   
+Testing memory at:  80225000   
+Testing memory at:  80226000   
+Testing memory at:  80227000   
+Testing memory at:  80228000   
+Testing memory at:  80229000   
+Testing memory at:  8022A000   
+Testing memory at:  8022B000   
+Testing memory at:  8022C000   
+Testing memory at:  8022D000   
+Memtest error address/value(h,l)/expected(h,l)  8022DFE8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8022E000   
+Testing memory at:  8022F000   
+Testing memory at:  80230000   
+Testing memory at:  80231000   
+Testing memory at:  80232000   
+Testing memory at:  80233000   
+Testing memory at:  80234000   
+Testing memory at:  80235000   
+Testing memory at:  80236000   
+Testing memory at:  80237000   
+Testing memory at:  80238000   
+Testing memory at:  80239000   
+Testing memory at:  8023A000   
+Testing memory at:  8023B000   
+Testing memory at:  8023C000   
+Testing memory at:  8023D000   
+Testing memory at:  8023E000   
+Testing memory at:  8023F000   
+Testing memory at:  80240000   
+Testing memory at:  80241000   
+Memtest error address/value(h,l)/expected(h,l)  80241E30    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Memtest error address/value(h,l)/expected(h,l)  80241E38    00000000    00000000    FFFFFFFF    FFFFFFFF   
+Testing memory at:  80242000   
+Testing memory at:  80243000   
+Testing memory at:  80244000   
+Testing memory at:  80245000   
+Testing memory at:  80246000   
+Testing memory at:  80247000   
+Testing memory at:  80248000   
+Testing memory at:  80249000   
+Testing memory at:  8024A000   
+Testing memory at:  8024B000   
+Testing memory at:  8024C000   
+Testing memory at:  8024D000   
+Testing memory at:  8024E000   
+Testing memory at:  8024F000   
+Testing memory at:  80250000   
+Testing memory at:  80251000   
+Testing memory at:  80252000   
+Testing memory at:  80253000   
+Testing memory at:  80254000   
+Testing memory at:  80255000   
+Testing memory at:  80256000   
+Testing memory at:  80257000   
+Testing memory at:  80258000   
+Testing memory at:  80259000   
+Testing memory at:  8025A000   
+Testing memory at:  8025B000   
+Testing memory at:  8025C000   
+Testing memory at:  8025D000   
+Testing memory at:  8025E000   
+Testing memory at:  8025F000   
+Testing memory at:  80260000   
+Testing memory at:  80261000   
+Testing memory at:  80262000   
+Testing memory at:  80263000   
+Testing memory at:  80264000   
+Testing memory at:  80265000   
+Testing memory at:  80266000   
+Testing memory at:  80267000   
+Testing memory at:  80268000   
+Testing memory at:  80269000   
+Testing memory at:  8026A000   
+Testing memory at:  8026B000   
+Testing memory at:  8026C000   
+Testing memory at:  8026D000   
+Testing memory at:  8026E000   
+Testing memory at:  8026F000   
+Testing memory at:  80270000   
+Testing memory at:  80271000   
+Testing memory at:  80272000   
+Testing memory at:  80273000   
+Testing memory at:  80274000   
+Testing memory at:  80275000   
+Testing memory at:  80276000   
+Testing memory at:  80277000   
+Testing memory at:  80278000   
+Testing memory at:  80279000   
+Testing memory at:  8027A000   
+Testing memory at:  8027B000   
+Testing memory at:  8027C000   
+Testing memory at:  8027D000   
+Testing memory at:  8027E000   
+Testing memory at:  8027F000   
+Testing memory at:  80280000   
+Testing memory at:  80281000   
+Testing memory at:  80282000   
+Testing memory at:  80283000   
+Testing memory at:  80284000   
+Testing memory at:  80285000   
+Testing memory at:  80286000   
+Testing memory at:  80287000   
+Testing memory at:  80288000   
+Testing memory at:  80289000   
+Testing memory at:  8028A000   
+Testing memory at:  8028B000   
+Testing memory at:  8028C000   
+Testing memory at:  8028D000   
+Testing memory at:  8028E000   
+Testing memory at:  8028F000   
+Testing memory at:  80290000   
+Testing memory at:  80291000   
+Testing memory at:  80292000   
+Testing memory at:  80293000   
+Testing memory at:  80294000   
+Testing memory at:  80295000   
+Testing memory at:  80296000   
+Testing memory at:  80297000   
+Testing memory at:  80298000   
+Testing memory at:  80299000   
+Testing memory at:  8029A000   
+Testing memory at:  8029B000   
+Testing memory at:  8029C000   
+Testing memory at:  8029D000   
+Testing memory at:  8029E000   
+Testing memory at:  8029F000   
+Testing memory at:  802A0000   
+Testing memory at:  802A1000   
+Testing memory at:  802A2000   
+Testing memory at:  802A3000   
+Testing memory at:  802A4000   
+Testing memory at:  802A5000   
+Testing memory at:  802A6000   
+Testing memory at:  802A7000   
+Testing memory at:  802A8000   
+Testing memory at:  802A9000   
+Testing memory at:  802AA000   
+Testing memory at:  802AB000   
+Testing memory at:  802AC000   
+Testing memory at:  802AD000   
+Testing memory at:  802AE000   
+Testing memory at:  802AF000   
+Testing memory at:  802B0000   
+Testing memory at:  802B1000   
+Testing memory at:  802B2000   
+Testing memory at:  802B3000   
+Testing memory at:  802B4000   
+Testing memory at:  802B5000   
+Testing memory at:  802B6000   
+Testing memory at:  802B7000   
+Testing memory at:  802B8000   
+Testing memory at:  802B9000   
+Testing memory at:  802BA000   
+Testing memory at:  802BB000   
+Testing memory at:  802BC000   
+Testing memory at:  802BD000   
+Testing memory at:  802BE000   
+Testing memory at:  802BF000   
+Testing memory at:  802C0000   
+Testing memory at:  802C1000   
+Testing memory at:  802C2000   
+Testing memory at:  802C3000   
+Testing memory at:  802C4000   
+Testing memory at:  802C5000   
+Testing memory at:  802C6000   
+Testing memory at:  802C7000   
+Testing memory at:  802C8000   
+Testing memory at:  802C9000   
+Testing memory at:  802CA000   
+Testing memory at:  802CB000   
+Testing memory at:  802CC000   
+Testing memory at:  802CD000   
+Testing memory at:  802CE000   
+Testing memory at:  802CF000   
+Testing memory at:  802D0000   
+Testing memory at:  802D1000   
+Testing memory at:  802D2000   
+Testing memory at:  802D3000   
+Testing memory at:  802D4000   
+Testing memory at:  802D5000   
+Testing memory at:  802D6000   
+Testing memory at:  802D7000   
+Testing memory at:  802D8000   
+Testing memory at:  802D9000   
+Testing memory at:  802DA000   
+Testing memory at:  802DB000   
+Testing memory at:  802DC000   
+Testing memory at:  802DD000   
+Testing memory at:  802DE000   
+Testing memory at:  802DF000   
+Testing memory at:  802E0000   
+Testing memory at:  802E1000   
+Testing memory at:  802E2000   
+Testing memory at:  802E3000   
+Testing memory at:  802E4000   
+Testing memory at:  802E5000   
+Testing memory at:  802E6000   
+Testing memory at:  802E7000   
+Testing memory at:  802E8000   
+Testing memory at:  802E9000   
+Testing memory at:  802EA000   
+Testing memory at:  802EB000   
+Testing memory at:  802EC000   
+Testing memory at:  802ED000   
+Testing memory at:  802EE000   
+Testing memory at:  802EF000   
+Testing memory at:  802F0000   
+Testing memory at:  802F1000   
+Testing memory at:  802F2000   
+Testing memory at:  802F3000   
+Testing memory at:  802F4000   
+Testing memory at:  802F5000   
+Testing memory at:  802F6000   
+Testing memory at:  802F7000   
+Testing memory at:  802F8000   
+Testing memory at:  802F9000   
+Testing memory at:  802FA000   
+Testing memory at:  802FB000   
+Testing memory at:  802FC000   
+Testing memory at:  802FD000   
+Testing memory at:  802FE000   
+Testing memory at:  802FF000   
+Testing memory at:  80300000   
+Testing memory at:  80301000   
+Testing memory at:  80302000   
+Testing memory at:  80303000   
+Testing memory at:  80304000   
+Testing memory at:  80305000   
+Testing memory at:  80306000   
+Testing memory at:  80307000   
+Testing memory at:  80308000   
+Testing memory at:  80309000   
+Testing memory at:  8030A000   
+Testing memory at:  8030B000   
+Testing memory at:  8030C000   
+Testing memory at:  8030D000   
+Testing memory at:  8030E000   
+Testing memory at:  8030F000   
+Testing memory at:  80310000   
+Testing memory at:  80311000   
+Testing memory at:  80312000   
+Testing memory at:  80313000   
+Testing memory at:  80314000   
+Testing memory at:  80315000   
+Testing memory at:  80316000   
+Testing memory at:  80317000   
+Testing memory at:  80318000   
+Testing memory at:  80319000   
+Testing memory at:  8031A000   
+Testing memory at:  8031B000   
+Testing memory at:  8031C000   
+Testing memory at:  8031D000   
+Testing memory at:  8031E000   
+Testing memory at:  8031F000   
+Testing memory at:  80320000   
+Testing memory at:  80321000   
+Testing memory at:  80322000   
+Testing memory at:  80323000   
+Testing memory at:  80324000   
+Testing memory at:  80325000   
+Testing memory at:  80326000   
+Testing memory at:  80327000   
+Testing memory at:  80328000   
+Testing memory at:  80329000   
+Testing memory at:  8032A000   
+Testing memory at:  8032B000   
+Testing memory at:  8032C000   
+Testing memory at:  8032D000   
+Testing memory at:  8032E000   
+Testing memory at:  8032F000   
+Testing memory at:  80330000   
+Testing memory at:  80331000   
+Testing memory at:  80332000   
+Testing memory at:  80333000   
+Testing memory at:  80334000   
+Testing memory at:  80335000   
+Testing memory at:  80336000   
+Testing memory at:  80337000   
+Testing memory at:  80338000   
+Testing memory at:  80339000   
+Testing memory at:  8033A000   
+Testing memory at:  8033B000   
+Testing memory at:  8033C000   
+Testing memory at:  8033D000   
+Testing memory at:  8033E000   
+Testing memory at:  8033F000   
+Testing memory at:  80340000   
+Testing memory at:  80341000   
+Testing memory at:  80342000   
+Testing memory at:  80343000   
+Testing memory at:  80344000   
+Testing memory at:  80345000   
+Testing memory at:  80346000   
+Testing memory at:  80347000   
+Testing memory at:  80348000   
+Testing memory at:  80349000   
+Testing memory at:  8034A000   
+Testing memory at:  8034B000   
+Testing memory at:  8034C000   
+Testing memory at:  8034D000   
+Testing memory at:  8034E000   
+Testing memory at:  8034F000   
+Testing memory at:  80350000   
+Testing memory at:  80351000   
+Testing memory at:  80352000   
+Testing memory at:  80353000   
+Testing memory at:  80354000   
+Testing memory at:  80355000   
+Testing memory at:  80356000   
+Testing memory at:  80357000   
+Testing memory at:  80358000   
+Testing memory at:  80359000   
+Testing memory at:  8035A000   
+Testing memory at:  8035B000   
+Testing memory at:  8035C000   
+Testing memory at:  8035D000   
+Testing memory at:  8035E000   
+Testing memory at:  8035F000   
+Testing memory at:  80360000   
+Testing memory at:  80361000   
+Testing memory at:  80362000   
+Testing memory at:  80363000   
+Testing memory at:  80364000   
+Testing memory at:  80365000   
+Testing memory at:  80366000   
+Testing memory at:  80367000   
+Testing memory at:  80368000   
+Testing memory at:  80369000   
+Testing memory at:  8036A000   
+Testing memory at:  8036B000   
+Testing memory at:  8036C000   
+Testing memory at:  8036D000   
+Testing memory at:  8036E000   
+Testing memory at:  8036F000   
+Testing memory at:  80370000   
+Testing memory at:  80371000   
+Testing memory at:  80372000   
+Testing memory at:  80373000   
+Testing memory at:  80374000   
+Testing memory at:  80375000   
+Testing memory at:  80376000   
+Testing memory at:  80377000   
+Testing memory at:  80378000   
+Testing memory at:  80379000   
+Testing memory at:  8037A000   
+Testing memory at:  8037B000   
+Testing memory at:  8037C000   
+Testing memory at:  8037D000   
+Testing memory at:  8037E000   
+Testing memory at:  8037F000   
+Testing memory at:  80380000   
+Testing memory at:  80381000   
+Testing memory at:  80382000   
+Testing memory at:  80383000   
+Testing memory at:  80384000   
+Testing memory at:  80385000   
+Testing memory at:  80386000   
+Testing memory at:  80387000   
+Testing memory at:  80388000   
+Testing memory at:  80389000   
+Testing memory at:  8038A000   
+Testing memory at:  8038B000   
+Testing memory at:  8038C000   
+Testing memory at:  8038D000   
+Testing memory at:  8038E000   
+Testing memory at:  8038F000   
+Testing memory at:  80390000   
+Testing memory at:  80391000   
+Testing memory at:  80392000   
+Testing memory at:  80393000   
+Testing memory at:  80394000   
+Testing memory at:  80395000   
+Testing memory at:  80396000   
+Testing memory at:  80397000   
+Testing memory at:  80398000   
+Testing memory at:  80399000   
+Testing memory at:  8039A000   
+Testing memory at:  8039B000   
+Testing memory at:  8039C000   
+Testing memory at:  8039D000   
+Testing memory at:  8039E000   
+Testing memory at:  8039F000   
+Testing memory at:  803A0000   
+Testing memory at:  803A1000   
+Testing memory at:  803A2000   
+Testing memory at:  803A3000   
+Testing memory at:  803A4000   
+Testing memory at:  803A5000   
+Testing memory at:  803A6000   
+Testing memory at:  803A7000   
+Testing memory at:  803A8000   
+Testing memory at:  803A9000   
+Testing memory at:  803AA000   
+Testing memory at:  803AB000   
+Testing memory at:  803AC000   
+Testing memory at:  803AD000   
+Testing memory at:  803AE000   
+Testing memory at:  803AF000   
+Testing memory at:  803B0000   
+Testing memory at:  803B1000   
+Testing memory at:  803B2000   
+Testing memory at:  803B3000   
+Testing memory at:  803B4000   
+Testing memory at:  803B5000   
+Testing memory at:  803B6000   
+Testing memory at:  803B7000   
+Testing memory at:  803B8000   
+Testing memory at:  803B9000   
+Testing memory at:  803BA000   
+Testing memory at:  803BB000   
+Testing memory at:  803BC000   
+Testing memory at:  803BD000   
+Testing memory at:  803BE000   
+Testing memory at:  803BF000   
+Testing memory at:  803C0000   
+Testing memory at:  803C1000   
+Testing memory at:  803C2000   
+Testing memory at:  803C3000   
+Testing memory at:  803C4000   
+Testing memory at:  803C5000   
+Testing memory at:  803C6000   
+Testing memory at:  803C7000   
+Testing memory at:  803C8000   
+Testing memory at:  803C9000   
+Testing memory at:  803CA000   
+Testing memory at:  803CB000   
+Testing memory at:  803CC000   
+Testing memory at:  803CD000   
+Testing memory at:  803CE000   
+Testing memory at:  803CF000   
+Testing memory at:  803D0000   
+Testing memory at:  803D1000   
+Testing memory at:  803D2000   
+Testing memory at:  803D3000   
+Testing memory at:  803D4000   
+Testing memory at:  803D5000   
+Testing memory at:  803D6000   
+Testing memory at:  803D7000   
+Testing memory at:  803D8000   
+Testing memory at:  803D9000   
+Testing memory at:  803DA000   
+Testing memory at:  803DB000   
+Testing memory at:  803DC000   
+Testing memory at:  803DD000   
+Testing memory at:  803DE000   
+Testing memory at:  803DF000   
+Testing memory at:  803E0000   
+Testing memory at:  803E1000   
+Testing memory at:  803E2000   
+Testing memory at:  803E3000   
+Testing memory at:  803E4000   
+Testing memory at:  803E5000   
+Testing memory at:  803E6000   
+Testing memory at:  803E7000   
+Testing memory at:  803E8000   
+Testing memory at:  803E9000   
+Testing memory at:  803EA000   
+Testing memory at:  803EB000   
+Testing memory at:  803EC000   
+Testing memory at:  803ED000   
+Testing memory at:  803EE000   
+Testing memory at:  803EF000   
+Testing memory at:  803F0000   
+Testing memory at:  803F1000   
+Testing memory at:  803F2000   
+Testing memory at:  803F3000   
+Testing memory at:  803F4000   
+Testing memory at:  803F5000   
+Testing memory at:  803F6000   
+Testing memory at:  803F7000   
+Testing memory at:  803F8000   
+Testing memory at:  803F9000   
+Testing memory at:  803FA000   
+Testing memory at:  803FB000   
+Testing memory at:  803FC000   
+Testing memory at:  803FD000   
+Testing memory at:  803FE000   
+Testing memory at:  803FF000   
+Testing memory at:  80400000   
+Testing memory at:  80401000   
+Testing memory at:  80402000   
+Testing memory at:  80403000   
+Testing memory at:  80404000   
+Testing memory at:  80405000   
+Testing memory at:  80406000   
+Testing memory at:  80407000   
+Testing memory at:  80408000   
+Testing memory at:  80409000   
+Testing memory at:  8040A000   
+Testing memory at:  8040B000   
+Testing memory at:  8040C000   
+Testing memory at:  8040D000   
+Testing memory at:  8040E000   
+Testing memory at:  8040F000   
+Testing memory at:  80410000   
+Testing memory at:  80411000   
+Testing memory at:  80412000   
+Testing memory at:  80413000   
+Testing memory at:  80414000   
+Testing memory at:  80415000   
+Testing memory at:  80416000   
+Testing memory at:  80417000   
+Testing memory at:  80418000   
+Testing memory at:  80419000   
+Testing memory at:  8041A000   
+Testing memory at:  8041B000   
+Testing memory at:  8041C000   
+Testing memory at:  8041D000   
+Testing memory at:  8041E000   
+Testing memory at:  8041F000   
+Testing memory at:  80420000   
+Testing memory at:  80421000   
+Testing memory at:  80422000   
+Testing memory at:  80423000   
+Testing memory at:  80424000   
+Testing memory at:  80425000   
+Testing memory at:  80426000   
+Testing memory at:  80427000   
+Testing memory at:  80428000   
+Testing memory at:  80429000   
+Testing memory at:  8042A000   
+Testing memory at:  8042B000   
+Testing memory at:  8042C000   
+Testing memory at:  8042D000   
+Testing memory at:  8042E000   
+Testing memory at:  8042F000   
+Testing memory at:  80430000   
+Testing memory at:  80431000   
+Testing memory at:  80432000   
+Testing memory at:  80433000   
+Testing memory at:  80434000   
+Testing memory at:  80435000   
+Testing memory at:  80436000   
+Testing memory at:  80437000   
+Testing memory at:  80438000   
+Testing memory at:  80439000   
+Testing memory at:  8043A000   
+Testing memory at:  8043B000   
+Testing memory at:  8043C000   
+Testing memory at:  8043D000   
+Testing memory at:  8043E000   
+Testing memory at:  8043F000   
+Testing memory at:  80440000   
+Testing memory at:  80441000   
+Testing memory at:  80442000   
+Testing memory at:  80443000   
+Testing memory at:  80444000   
+Testing memory at:  80445000   
+Testing memory at:  80446000   
+Testing memory at:  80447000   
+Testing memory at:  80448000   
+Testing memory at:  80449000   
+Testing memory at:  8044A000   
+Testing memory at:  8044B000   
+Testing memory at:  8044C000   
+Testing memory at:  8044D000   
+Testing memory at:  8044E000   
+Testing memory at:  8044F000   
+Testing memory at:  80450000   
+Testing memory at:  80451000   
+Testing memory at:  80452000   
+Testing memory at:  80453000   
+Testing memory at:  80454000   
+Testing memory at:  80455000   
+Testing memory at:  80456000   
+Testing memory at:  80457000   
+Testing memory at:  80458000   
+Testing memory at:  80459000   
+Testing memory at:  8045A000   
+Testing memory at:  8045B000   
+Testing memory at:  8045C000   
+Testing memory at:  8045D000   
+Testing memory at:  8045E000   
+Testing memory at:  8045F000   
+Testing memory at:  80460000   
+Testing memory at:  80461000   
+Testing memory at:  80462000   
+Testing memory at:  80463000   
+Testing memory at:  80464000   
+Testing memory at:  80465000   
+Testing memory at:  80466000   
+Testing memory at:  80467000   
+Testing memory at:  80468000   
+Testing memory at:  80469000   
+Testing memory at:  8046A000   
+Testing memory at:  8046B000   
+Testing memory at:  8046C000   
+Testing memory at:  8046D000   
+Testing memory at:  8046E000   
+Testing memory at:  8046F000   
+Testing memory at:  80470000   
+Testing memory at:  80471000   
+Testing memory at:  80472000   
+Testing memory at:  80473000   
+Testing memory at:  80474000   
+Testing memory at:  80475000   
+Testing memory at:  80476000   
+Testing memory at:  80477000   
+Testing memory at:  80478000   
+Testing memory at:  80479000   
+Testing memory at:  8047A000   
+Testing memory at:  8047B000   
+Testing memory at:  8047C000   
+Testing memory at:  8047D000   
+Testing memory at:  8047E000   
+Testing memory at:  8047F000   
+Testing memory at:  80480000   
+Testing memory at:  80481000   
+Testing memory at:  80482000   
+Testing memory at:  80483000   
+Testing memory at:  80484000   
+Testing memory at:  80485000   
+Testing memory at:  80486000   
+Testing memory at:  80487000   
+Testing memory at:  80488000   
+Testing memory at:  80489000   
+Testing memory at:  8048A000   
+Testing memory at:  8048B000   
+Testing memory at:  8048C000   
+Testing memory at:  8048D000   
+Testing memory at:  8048E000   
+Testing memory at:  8048F000   
+Testing memory at:  80490000   
+Testing memory at:  80491000   
+Testing memory at:  80492000   
+Testing memory at:  80493000   
+Testing memory at:  80494000   
+Testing memory at:  80495000   
+Testing memory at:  80496000   
+Testing memory at:  80497000   
+Testing memory at:  80498000   
+Testing memory at:  80499000   
+Testing memory at:  8049A000   
+Testing memory at:  8049B000   
+Testing memory at:  8049C000   
+Testing memory at:  8049D000   
+Testing memory at:  8049E000   
+Testing memory at:  8049F000   
+Testing memory at:  804A0000   
+Testing memory at:  804A1000   
+Testing memory at:  804A2000   
+Testing memory at:  804A3000   
+Testing memory at:  804A4000   
+Testing memory at:  804A5000   
+Testing memory at:  804A6000   
+Testing memory at:  804A7000   
+Testing memory at:  804A8000   
+Testing memory at:  804A9000   
+Testing memory at:  804AA000   
+Testing memory at:  804AB000   
+Testing memory at:  804AC000   
+Testing memory at:  804AD000   
+Testing memory at:  804AE000   
+Testing memory at:  804AF000   
+Testing memory at:  804B0000   
+Testing memory at:  804B1000   
+Testing memory at:  804B2000   
+Testing memory at:  804B3000   
+Testing memory at:  804B4000   
+Testing memory at:  804B5000   
+Testing memory at:  804B6000   
+Testing memory at:  804B7000   
+Testing memory at:  804B8000   
+Testing memory at:  804B9000   
+Testing memory at:  804BA000   
+Testing memory at:  804BB000   
+Testing memory at:  804BC000   
+Testing memory at:  804BD000   
+Testing memory at:  804BE000   
+Testing memory at:  804BF000   
+Testing memory at:  804C0000   
+Testing memory at:  804C1000   
+Testing memory at:  804C2000   
+Testing memory at:  804C3000   
+Testing memory at:  804C4000   
+Testing memory at:  804C5000   
+Testing memory at:  804C6000   
+Testing memory at:  804C7000   
+Testing memory at:  804C8000   
+Testing memory at:  804C9000   
+Testing memory at:  804CA000   
+Testing memory at:  804CB000   
+Testing memory at:  804CC000   
+Testing memory at:  804CD000   
+Testing memory at:  804CE000   
+Testing memory at:  804CF000   
+Testing memory at:  804D0000   
+Testing memory at:  804D1000   
+Testing memory at:  804D2000   
+Testing memory at:  804D3000   
+Testing memory at:  804D4000   
+Testing memory at:  804D5000   
+Testing memory at:  804D6000   
+Testing memory at:  804D7000   
+Testing memory at:  804D8000   
+Testing memory at:  804D9000   
+Testing memory at:  804DA000   
+Testing memory at:  804DB000   
+Testing memory at:  804DC000   
+Testing memory at:  804DD000   
+Testing memory at:  804DE000   
+Testing memory at:  804DF000   
+Testing memory at:  804E0000   
+Testing memory at:  804E1000   
+Testing memory at:  804E2000   
+Testing memory at:  804E3000   
+Testing memory at:  804E4000   
+Testing memory at:  804E5000   
+Testing memory at:  804E6000   
+Testing memory at:  804E7000   
+Testing memory at:  804E8000   
+Testing memory at:  804E9000   
+Testing memory at:  804EA000   
+Testing memory at:  804EB000   
+Testing memory at:  804EC000   
+Testing memory at:  804ED000   
+Testing memory at:  804EE000   
+Testing memory at:  804EF000   
+Testing memory at:  804F0000   
+Testing memory at:  804F1000   
+Testing memory at:  804F2000   
+Testing memory at:  804F3000   
+Testing memory at:  804F4000   
+Testing memory at:  804F5000   
+Testing memory at:  804F6000   
+Testing memory at:  804F7000   
+Testing memory at:  804F8000   
+Testing memory at:  804F9000   
+Testing memory at:  804FA000   
+Testing memory at:  804FB000   
+Testing memory at:  804FC000   
+Testing memory at:  804FD000   
+Testing memory at:  804FE000   
+Testing memory at:  804FF000   
+Testing memory at:  80500000   
+Testing memory at:  80501000   
+Testing memory at:  80502000   
+Memtest error address/value(h,l)/expected(h,l)  80502A28    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80503000   
+Testing memory at:  80504000   
+Testing memory at:  80505000   
+Testing memory at:  80506000   
+Testing memory at:  80507000   
+Testing memory at:  80508000   
+Testing memory at:  80509000   
+Testing memory at:  8050A000   
+Testing memory at:  8050B000   
+Testing memory at:  8050C000   
+Testing memory at:  8050D000   
+Testing memory at:  8050E000   
+Testing memory at:  8050F000   
+Testing memory at:  80510000   
+Testing memory at:  80511000   
+Testing memory at:  80512000   
+Testing memory at:  80513000   
+Testing memory at:  80514000   
+Testing memory at:  80515000   
+Testing memory at:  80516000   
+Testing memory at:  80517000   
+Testing memory at:  80518000   
+Testing memory at:  80519000   
+Testing memory at:  8051A000   
+Memtest error address/value(h,l)/expected(h,l)  8051AD08    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8051B000   
+Testing memory at:  8051C000   
+Testing memory at:  8051D000   
+Testing memory at:  8051E000   
+Memtest error address/value(h,l)/expected(h,l)  8051E898    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  8051EC88    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8051F000   
+Testing memory at:  80520000   
+Testing memory at:  80521000   
+Testing memory at:  80522000   
+Memtest error address/value(h,l)/expected(h,l)  80522B08    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80522E68    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80523000   
+Testing memory at:  80524000   
+Testing memory at:  80525000   
+Testing memory at:  80526000   
+Testing memory at:  80527000   
+Testing memory at:  80528000   
+Testing memory at:  80529000   
+Testing memory at:  8052A000   
+Memtest error address/value(h,l)/expected(h,l)  8052AA08    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  8052B000   
+Testing memory at:  8052C000   
+Testing memory at:  8052D000   
+Testing memory at:  8052E000   
+Testing memory at:  8052F000   
+Testing memory at:  80530000   
+Testing memory at:  80531000   
+Testing memory at:  80532000   
+Testing memory at:  80533000   
+Testing memory at:  80534000   
+Testing memory at:  80535000   
+Testing memory at:  80536000   
+Testing memory at:  80537000   
+Testing memory at:  80538000   
+Testing memory at:  80539000   
+Testing memory at:  8053A000   
+Testing memory at:  8053B000   
+Testing memory at:  8053C000   
+Testing memory at:  8053D000   
+Testing memory at:  8053E000   
+Testing memory at:  8053F000   
+Testing memory at:  80540000   
+Testing memory at:  80541000   
+Testing memory at:  80542000   
+Testing memory at:  80543000   
+Testing memory at:  80544000   
+Testing memory at:  80545000   
+Testing memory at:  80546000   
+Testing memory at:  80547000   
+Testing memory at:  80548000   
+Testing memory at:  80549000   
+Testing memory at:  8054A000   
+Testing memory at:  8054B000   
+Testing memory at:  8054C000   
+Testing memory at:  8054D000   
+Testing memory at:  8054E000   
+Testing memory at:  8054F000   
+Testing memory at:  80550000   
+Testing memory at:  80551000   
+Testing memory at:  80552000   
+Memtest error address/value(h,l)/expected(h,l)  80552948    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Memtest error address/value(h,l)/expected(h,l)  80552CC8    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80553000   
+Testing memory at:  80554000   
+Testing memory at:  80555000   
+Testing memory at:  80556000   
+Testing memory at:  80557000   
+Testing memory at:  80558000   
+Testing memory at:  80559000   
+Testing memory at:  8055A000   
+Testing memory at:  8055B000   
+Testing memory at:  8055C000   
+Testing memory at:  8055D000   
+Testing memory at:  8055E000   
+Testing memory at:  8055F000   
+Testing memory at:  80560000   
+Testing memory at:  80561000   
+Testing memory at:  80562000   
+Memtest error address/value(h,l)/expected(h,l)  80562D78    FFFFFFFF    FFFFFFFF    00000000    00000000   
+Testing memory at:  80563000   
+Testing memory at:  80564000   
+Testing memory at:  80565000   
+Testing memory at:  80566000   
+Testing memory at:  80567000   
+Testing memory at:  80568000   
+Testing memory at:  80569000   
+Testing memory at:  8056A000   
+Testing memory at:  8056B000   
+Testing memory at:  8056C000   
+Testing memory at:  8056D000   
+Testing memory at:  8056E000   
+Testing memory at:  8056F000   
+Testing memory at:  80570000   
+Testing memory at:  80571000   
+Testing memory at:  80572000   
+Testing memory at:  80573000   
+Testing memory at:  80574000   
+Testing memory at:  80575000   
+Testing memory at:  80576000   
+Testing memory at:  80577000   
+Testing memory at:  80578000   
+Testing memory at:  80579000   
+Testing memory at:  8057A000   
+Testing memory at:  8057B000   
+Testing memory at:  8057C000   
+Testing memory at:  8057D000   
+Testing memory at:  8057E000   
+Testing memory at:  8057F000   
+Testing memory at:  80580000   
+Testing memory at:  80581000   
+Testing memory at:  80582000   
+Testing memory at:  80583000   
+Testing memory at:  80584000   
+Testing memory at:  80585000   
+Testing memory at:  80586000   
+Testing memory at:  80587000   
+Testing memory at:  80588000   
+Testing memory at:  80589000   
+Testing memory at:  8058A000   
+Testing memory at:  8058B000   
+Testing memory at:  8058C000   
+Testing memory at:  8058D000   
+Testing memory at:  8058E000   
+Testing memory at:  8058F000   
+Testing memory at:  80590000   
+Testing memory at:  80591000   
+Testing memory at:  80592000   
+Testing memory at:  80593000   
+Testing memory at:  80594000   
+Testing memory at:  80595000   
+Testing memory at:  80596000   
+Testing memory at:  80597000   
+Testing memory at:  80598000   
+Testing memory at:  80599000   
+Testing memory at:  8059A000   
+Testing memory at:  8059B000   
+Testing memory at:  8059C000   
+Testing memory at:  8059D000   
+Testing memory at:  8059E000   
+Testing memory at:  8059F000   
+Testing memory at:  805A0000   
+Testing memory at:  805A1000   
+Testing memory at:  805A2000   
+Testing memory at:  805A3000   
+Testing memory at:  805A4000   
+Testing memory at:  805A5000   
+Testing memory at:  805A6000   
+Testing memory at:  805A7000   
+Testing memory at:  805A8000   
+Testing memory at:  805A9000   
+Testing memory at:  805AA000   
+Testing memory at:  805AB000   
+Testing memory at:  805AC000   
+Testing memory at:  805AD000   
+Testing memory at:  805AE000   
+Testing memory at:  805AF000   
+Testing memory at:  805B0000   
+Testing memory at:  805B1000   
+Testing memory at:  805B2000   
+Testing memory at:  805B3000   
+Testing memory at:  805B4000   
+Testing memory at:  805B5000   
+Testing memory at:  805B6000   
+Testing memory at:  805B7000   
+Testing memory at:  805B8000   
+Testing memory at:  805B9000   
+Testing memory at:  805BA000   
+Testing memory at:  805BB000   
+Testing memory at:  805BC000   
+Testing memory at:  805BD000   
+Testing memory at:  805BE000   
+Testing memory at:  805BF000   
+Testing memory at:  805C0000   
+Testing memory at:  805C1000   
+Testing memory at:  805C2000   
+Testing memory at:  805C3000   
+Testing memory at:  805C4000   
+Testing memory at:  805C5000   
+Testing memory at:  805C6000   
+Testing memory at:  805C7000   
+Testing memory at:  805C8000   
+Testing memory at:  805C9000   
+Testing memory at:  805CA000   
+Testing memory at:  805CB000   
+Testing memory at:  805CC000   
+Testing memory at:  805CD000   
+Testing memory at:  805CE000   
+Testing memory at:  805CF000   
+Testing memory at:  805D0000   
+Testing memory at:  805D1000   
+Testing memory at:  805D2000   
+Testing memory at:  805D3000   
+Testing memory at:  805D4000   
+Testing memory at:  805D5000   
+Testing memory at:  805D6000   
+Testing memory at:  805D7000   
+Testing memory at:  805D8000   
+Testing memory at:  805D9000   
+Testing memory at:  805DA000   
+Testing memory at:  805DB000   
+Testing memory at:  805DC000   
+Testing memory at:  805DD000   
+Testing memory at:  805DE000   
+Testing memory at:  805DF000   
+Testing memory at:  805E0000   
+Testing memory at:  805E1000   
+Testing memory at:  805E2000   
+Testing memory at:  805E3000   
+Testing memory at:  805E4000   
+Testing memory at:  805E5000   
+Testing memory at:  805E6000   
+Testing memory at:  805E7000   
+Testing memory at:  805E8000   
+Testing memory at:  805E9000   
+Testing memory at:  805EA000   
+Testing memory at:  805EB000   
+Testing memory at:  805EC000   
+Testing memory at:  805ED000   
+Testing memory at:  805EE000   
+Testing memory at:  805EF000   
+Testing memory at:  805F0000   
+Testing memory at:  805F1000   
+Testing memory at:  805F2000   
+Testing memory at:  805F3000   
+Testing memory at:  805F4000   
+Testing memory at:  805F5000   
+Testing memory at:  805F6000   
+Testing memory at:  805F7000   
+Testing memory at:  805F8000   
+Testing memory at:  805F9000   
+Testing memory at:  805FA000   
+Testing memory at:  805FB000   
+Testing memory at:  805FC000   
+Testing memory at:  805FD000   
+Testing memory at:  805FE000   
+Testing memory at:  805FF000   
+Testing memory at:  80600000   
+Testing memory at:  80601000   
+Testing memory at:  80602000   
+Testing memory at:  80603000   
+Testing memory at:  80604000   
+Testing memory at:  80605000   
+Testing memory at:  80606000   
+Testing memory at:  80607000   
+Testing memory at:  80608000   
+Testing memory at:  80609000   
+Testing memory at:  8060A000   
+Testing memory at:  8060B000   
+Testing memory at:  8060C000   
+Testing memory at:  8060D000   
+Testing memory at:  8060E000   
+Testing memory at:  8060F000   
+Testing memory at:  80610000   
+Testing memory at:  80611000   
+Testing memory at:  80612000   
+Testing memory at:  80613000   
+Testing memory at:  80614000   
+Testing memory at:  80615000   
+Testing memory at:  80616000   
+Testing memory at:  80617000   
+Testing memory at:  80618000   
+Testing memory at:  80619000   
+Testing memory at:  8061A000   
+Testing memory at:  8061B000   
+Testing memory at:  8061C000   
+Testing memory at:  8061D000   
+Testing memory at:  8061E000   
+Testing memory at:  8061F000   
+Testing memory at:  80620000   
+Testing memory at:  80621000   
+Testing memory at:  80622000   
+Testing memory at:  80623000   
+Testing memory at:  80624000   
+Testing memory at:  80625000   
+Testing memory at:  80626000   
+Testing memory at:  80627000   
+Testing memory at:  80628000   
+Testing memory at:  80629000   
+Testing memory at:  8062A000   
+Testing memory at:  8062B000   
+Testing memory at:  8062C000   
+Testing memory at:  8062D000   
+Testing memory at:  8062E000   
+Testing memory at:  8062F000   
+Testing memory at:  80630000   
+Testing memory at:  80631000   
+Testing memory at:  80632000   
+Testing memory at:  80633000   
+Testing memory at:  80634000   
+Testing memory at:  80635000   
+Testing memory at:  80636000   
+Testing memory at:  80637000   
+Testing memory at:  80638000   
+Testing memory at:  80639000   
+Testing memory at:  8063A000   
+Testing memory at:  8063B000   
+Testing memory at:  8063C000   
+Testing memory at:  8063D000   
+Testing memory at:  8063E000   
+Testing memory at:  8063F000   
+Testing memory at:  80640000   
+Testing memory at:  80641000   
+Testing memory at:  80642000   
+Testing memory at:  80643000   
+Testing memory at:  80644000   
+Testing memory at:  80645000   
+Testing memory at:  80646000   
+Testing memory at:  80647000   
+Testing memory at:  80648000   
+Testing memory at:  80649000   
+Testing memory at:  8064A000   
+Testing memory at:  8064B000   
+Testing memory at:  8064C000   
+Testing memory at:  8064D000   
+Testing memory at:  8064E000   
+Testing memory at:  8064F000   
+Testing memory at:  80650000   
+Testing memory at:  80651000   
+Testing memory at:  80652000   
+Testing memory at:  80653000   
+Testing memory at:  80654000   
+Testing memory at:  80655000   
+Testing memory at:  80656000   
+Testing memory at:  80657000   
+Testing memory at:  80658000   
+Testing memory at:  80659000   
+Testing memory at:  8065A000   
+Testing memory at:  8065B000   
+Testing memory at:  8065C000   
+Testing memory at:  8065D000   
+Testing memory at:  8065E000   
+Testing memory at:  8065F000   
+Testing memory at:  80660000   
+Testing memory at:  80661000   
+Testing memory at:  80662000   
+Testing memory at:  80663000   
+Testing memory at:  80664000   
+Testing memory at:  80665000   
+Testing memory at:  80666000   
+Testing memory at:  80667000   
+Testing memory at:  80668000   
+Testing memory at:  80669000   
+Testing memory at:  8066A000   
+Testing memory at:  8066B000   
+Testing memory at:  8066C000   
+Testing memory at:  8066D000   
+Testing memory at:  8066E000   
+Testing memory at:  8066F000   
+Testing memory at:  80670000   
+Testing memory at:  80671000   
+Testing memory at:  80672000   
+Testing memory at:  80673000   
+Testing memory at:  80674000   
+Testing memory at:  80675000   
+Testing memory at:  80676000   
+Testing memory at:  80677000   
+Testing memory at:  80678000   
+Testing memory at:  80679000   
+Testing memory at:  8067A000   
+Testing memory at:  8067B000   
+Testing memory at:  8067C000   
+Testing memory at:  8067D000   
+Testing memory at:  8067E000   
+Testing memory at:  8067F000   
+Testing memory at:  80680000   
+Testing memory at:  80681000   
+Testing memory at:  80682000   
+Testing memory at:  80683000   
+Testing memory at:  80684000   
+Testing memory at:  80685000   
+Testing memory at:  80686000   
+Testing memory at:  80687000   
+Testing memory at:  80688000   
+Testing memory at:  80689000   
+Testing memory at:  8068A000   
+Testing memory at:  8068B000   
+Testing memory at:  8068C000   
+Testing memory at:  8068D000   
+Testing memory at:  8068E000   
+Testing memory at:  8068F000   
+Testing memory at:  80690000   
+Testing memory at:  80691000   
+Testing memory at:  80692000   
+Testing memory at:  80693000   
+Testing memory at:  80694000   
+Testing memory at:  80695000   
+Testing memory at:  80696000   
+Testing memory at:  80697000   
+Testing memory at:  80698000   
+Testing memory at:  80699000   
+Testing memory at:  8069A000   
+Testing memory at:  8069B000   
+Testing memory at:  8069C000   
+Testing memory at:  8069D000   
+Testing memory at:  8069E000   
+Testing memory at:  8069F000   
+Testing memory at:  806A0000   
+Testing memory at:  806A1000   
+Testing memory at:  806A2000   
+Testing memory at:  806A3000   
+Testing memory at:  806A4000   
+Testing memory at:  806A5000   
+Testing memory at:  806A6000   
+Testing memory at:  806A7000   
+Testing memory at:  806A8000   
+Testing memory at:  806A9000   
+Testing memory at:  806AA000   
+Testing memory at:  806AB000   
+Testing memory at:  806AC000   
+Testing memory at:  806AD000   
+Testing memory at:  806AE000   
+Testing memory at:  806AF000   
+Testing memory at:  806B0000   
+Testing memory at:  806B1000   
+Testing memory at:  806B2000   
+Testing memory at:  806B3000   
+Testing memory at:  806B4000   
+Testing memory at:  806B5000   
+Testing memory at:  806B6000   
+Testing memory at:  806B7000   
+Testing memory at:  806B8000   
+Testing memory at:  806B9000   
+Testing memory at:  806BA000   
+Testing memory at:  806BB000   
+Testing memory at:  806BC000   
+Testing memory at:  806BD000   
+Testing memory at:  806BE000   
+Testing memory at:  806BF000   
+Testing memory at:  806C0000   
+Testing memory at:  806C1000   
+Testing memory at:  806C2000   
+Testing memory at:  806C3000   
+Testing memory at:  806C4000   
+Testing memory at:  806C5000   
+Testing memory at:  806C6000   
+Testing memory at:  806C7000   
+Testing memory at:  806C8000   
+Testing memory at:  806C9000   
+Testing memory at:  806CA000   
+Testing memory at:  806CB000   
+Testing memory at:  806CC000   
+Testing memory at:  806CD000   
+Testing memory at:  806CE000   
+Testing memory at:  806CF000   
+Testing memory at:  806D0000   
+Testing memory at:  806D1000   
+Testing memory at:  806D2000   
+Testing memory at:  806D3000   
+Testing memory at:  806D4000   
+Testing memory at:  806D5000   
+Testing memory at:  806D6000   
+Testing memory at:  806D7000   
+Testing memory at:  806D8000   
+Testing memory at:  806D9000   
+Testing memory at:  806DA000   
+Testing memory at:  806DB000   
+Testing memory at:  806DC000   
+Testing memory at:  806DD000   
+Testing memory at:  806DE000   
+Testing memory at:  806DF000   
+Testing memory at:  806E0000   
+Testing memory at:  806E1000   
+Testing memory at:  806E2000   
+Testing memory at:  806E3000   
+Testing memory at:  806E4000   
+Testing memory at:  806E5000   
+Testing memory at:  806E6000   
+Testing memory at:  806E7000   
+Testing memory at:  806E8000   
+Testing memory at:  806E9000   
+Testing memory at:  806EA000   
+Testing memory at:  806EB000   
+Testing memory at:  806EC000   
+Testing memory at:  806ED000   
+Testing memory at:  806EE000   
+Testing memory at:  806EF000   
+Testing memory at:  806F0000   
+Testing memory at:  806F1000   
+Testing memory at:  806F2000   
+Testing memory at:  806F3000   
+Testing memory at:  806F4000   
+Testing memory at:  806F5000   
+Testing memory at:  806F6000   
+Testing memory at:  806F7000   
+Testing memory at:  806F8000   
+Testing memory at:  806F9000   
+Testing memory at:  806FA000   
+Testing memory at:  806FB000   
+Testing memory at:  806FC000   
+Testing memory at:  806FD000   
+Testing memory at:  806FE000   
+Testing memory at:  806FF000   
+Testing memory at:  80700000   
+Testing memory at:  80701000   
+Testing memory at:  80702000   
+Testing memory at:  80703000   
+Testing memory at:  80704000   
+Testing memory at:  80705000   
+Testing memory at:  80706000   
+Testing memory at:  80707000   
+Testing memory at:  80708000   
+Testing memory at:  80709000   
+Testing memory at:  8070A000   
+Testing memory at:  8070B000   
+Testing memory at:  8070C000   
+Testing memory at:  8070D000   
+Testing memory at:  8070E000   
+Testing memory at:  8070F000   
+Testing memory at:  80710000   
+Testing memory at:  80711000   
+Testing memory at:  80712000   
+Testing memory at:  80713000   
+Testing memory at:  80714000   
+Testing memory at:  80715000   
+Testing memory at:  80716000   
+Testing memory at:  80717000   
+Testing memory at:  80718000   
+Testing memory at:  80719000   
+Testing memory at:  8071A000   
+Testing memory at:  8071B000   
+Testing memory at:  8071C000   
+Testing memory at:  8071D000   
+Testing memory at:  8071E000   
+Testing memory at:  8071F000   
+Testing memory at:  80720000   
+Testing memory at:  80721000   
+Testing memory at:  80722000   
+Testing memory at:  80723000   
+Testing memory at:  80724000   
+Testing memory at:  80725000   
+Testing memory at:  80726000   
+Testing memory at:  80727000   
+Testing memory at:  80728000   
+Testing memory at:  80729000   
+Testing memory at:  8072A000   
+Testing memory at:  8072B000   
+Testing memory at:  8072C000   
+Testing memory at:  8072D000   
+Testing memory at:  8072E000   
+Testing memory at:  8072F000   
+Testing memory at:  80730000   
+Testing memory at:  80731000   
+Testing memory at:  80732000   
+Testing memory at:  80733000   
+Testing memory at:  80734000   
+Testing memory at:  80735000   
+Testing memory at:  80736000   
+Testing memory at:  80737000   
+Testing memory at:  80738000   
+Testing memory at:  80739000   
+Testing memory at:  8073A000   
+Testing memory at:  8073B000   
+Testing memory at:  8073C000   
+Testing memory at:  8073D000   
+Testing memory at:  8073E000   
+Testing memory at:  8073F000   
+Testing memory at:  80740000   
+Testing memory at:  80741000   
+Testing memory at:  80742000   
+Testing memory at:  80743000   
+Testing memory at:  80744000   
+Testing memory at:  80745000   
+Testing memory at:  80746000   
+Testing memory at:  80747000   
+Testing memory at:  80748000   
+Testing memory at:  80749000   
+Testing memory at:  8074A000   
+Testing memory at:  8074B000   
+Testing memory at:  8074C000   
+Testing memory at:  8074D000   
+Testing memory at:  8074E000   
+Testing memory at:  8074F000   
+Testing memory at:  80750000   
+Testing memory at:  80751000   
+Testing memory at:  80752000   
+Testing memory at:  80753000   
+Testing memory at:  80754000   
+Testing memory at:  80755000   
+Testing memory at:  80756000   
+Testing memory at:  80757000   
+Testing memory at:  80758000   
+Testing memory at:  80759000   
+Testing memory at:  8075A000   
+Testing memory at:  8075B000   
+Testing memory at:  8075C000   
+Testing memory at:  8075D000   
+Testing memory at:  8075E000   
+Testing memory at:  8075F000   
+Testing memory at:  80760000   
+Testing memory at:  80761000   
+Testing memory at:  80762000   
+Testing memory at:  80763000   
+Testing memory at:  80764000   
+Testing memory at:  80765000   
+Testing memory at:  80766000   
+Testing memory at:  80767000   
+Testing memory at:  80768000   
+Testing memory at:  80769000   
+Testing memory at:  8076A000   
+Testing memory at:  8076B000   
+Testing memory at:  8076C000   
+Testing memory at:  8076D000   
+Testing memory at:  8076E000   
+Testing memory at:  8076F000   
+Testing memory at:  80770000   
+Testing memory at:  80771000   
+Testing memory at:  80772000   
+Testing memory at:  80773000   
+Testing memory at:  80774000   
+Testing memory at:  80775000   
+Testing memory at:  80776000   
+Testing memory at:  80777000   
+Testing memory at:  80778000   
+Testing memory at:  80779000   
+Testing memory at:  8077A000   
+Testing memory at:  8077B000   
+Testing memory at:  8077C000   
+Testing memory at:  8077D000   
+Testing memory at:  8077E000   
+Testing memory at:  8077F000   
+Testing memory at:  80780000   
+Testing memory at:  80781000   
+Testing memory at:  80782000   
+Testing memory at:  80783000   
+Testing memory at:  80784000   
+Testing memory at:  80785000   
+Testing memory at:  80786000   
+Testing memory at:  80787000   
+Testing memory at:  80788000   
+Testing memory at:  80789000   
+Testing memory at:  8078A000   
+Testing memory at:  8078B000   
+Testing memory at:  8078C000   
+Testing memory at:  8078D000   
+Testing memory at:  8078E000   
+Testing memory at:  8078F000   
+Testing memory at:  80790000   
+Testing memory at:  80791000   
+Testing memory at:  80792000   
+Testing memory at:  80793000   
+Testing memory at:  80794000   
+Testing memory at:  80795000   
+Testing memory at:  80796000   
+Testing memory at:  80797000   
+Testing memory at:  80798000   
+Testing memory at:  80799000   
+Testing memory at:  8079A000   
+Testing memory at:  8079B000   
+Testing memory at:  8079C000   
+Testing memory at:  8079D000   
+Testing memory at:  8079E000   
+Testing memory at:  8079F000   
+Testing memory at:  807A0000   
+Testing memory at:  807A1000   
+Testing memory at:  807A2000   
+Testing memory at:  807A3000   
+Testing memory at:  807A4000   
+Testing memory at:  807A5000   
+Testing memory at:  807A6000   
+Testing memory at:  807A7000   
+Testing memory at:  807A8000   
+Testing memory at:  807A9000   
+Testing memory at:  807AA000   
+Testing memory at:  807AB000   
+Testing memory at:  807AC000   
+Testing memory at:  807AD000   
+Testing memory at:  807AE000   
+Testing memory at:  807AF000   
+Testing memory at:  807B0000   
+Testing memory at:  807B1000   
+Testing memory at:  807B2000   
+Testing memory at:  807B3000   
+Testing memory at:  807B4000   
+Testing memory at:  807B5000   
+Testing memory at:  807B6000   
+Testing memory at:  807B7000   
+Testing memory at:  807B8000   
+Testing memory at:  807B9000   
+Testing memory at:  807BA000   
+Testing memory at:  807BB000   
+Testing memory at:  807BC000   
+Testing memory at:  807BD000   
+Testing memory at:  807BE000   
+Testing memory at:  807BF000   
+Testing memory at:  807C0000   
+Testing memory at:  807C1000   
+Testing memory at:  807C2000   
+Testing memory at:  807C3000   
+Testing memory at:  807C4000   
+Testing memory at:  807C5000   
+Testing memory at:  807C6000   
+Testing memory at:  807C7000   
+Testing memory at:  807C8000   
+Testing memory at:  807C9000   
+Testing memory at:  807CA000   
+Testing memory at:  807CB000   
+Testing memory at:  807CC000   
+Testing memory at:  807CD000   
+Testing memory at:  807CE000   
+Testing memory at:  807CF000   
+Testing memory at:  807D0000   
+Testing memory at:  807D1000   
+Testing memory at:  807D2000   
+Testing memory at:  807D3000   
+Testing memory at:  807D4000   
+Testing memory at:  807D5000   
+Testing memory at:  807D6000   
+Testing memory at:  807D7000   
+Testing memory at:  807D8000   
+Testing memory at:  807D9000   
+Testing memory at:  807DA000   
+Testing memory at:  807DB000   
+Testing memory at:  807DC000   
+Testing memory at:  807DD000   
+Testing memory at:  807DE000   
+Testing memory at:  807DF000   
+Testing memory at:  807E0000   
+Testing memory at:  807E1000   
+Testing memory at:  807E2000   
+Testing memory at:  807E3000   
+Testing memory at:  807E4000   
+Testing memory at:  807E5000   
+Testing memory at:  807E6000   
+Testing memory at:  807E7000   
+Testing memory at:  807E8000   
+Testing memory at:  807E9000   
+Testing memory at:  807EA000   
+Testing memory at:  807EB000   
+Testing memory at:  807EC000   
+Testing memory at:  807ED000   
+Testing memory at:  807EE000   
+Testing memory at:  807EF000   
+Testing memory at:  807F0000   
+Testing memory at:  807F1000   
+Testing memory at:  807F2000   
+Testing memory at:  807F3000   
+Testing memory at:  807F4000   
+Testing memory at:  807F5000   
+Testing memory at:  807F6000   
+Testing memory at:  807F7000   
+Testing memory at:  807F8000   
+Testing memory at:  807F9000   
+Testing memory at:  807FA000   
+Testing memory at:  807FB000   
+Testing memory at:  807FC000   
+Testing memory at:  807FD000   
+Testing memory at:  807FE000   

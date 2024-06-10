@@ -77,6 +77,7 @@
 #include "rdram.h"
 #include "entropy.h"
 #include "loader.h"
+#include "memtest.h"
 
 __attribute__((section(".banner"), used))
 const char banner[32] = " Libdragon IPL3 " " Coded by Rasky ";
@@ -322,6 +323,7 @@ void stage1(void)
 
     debugf("Total memory: ", memsize);
 
+#ifndef MEMTEST
     // Copy the IPL3 stage2 (loader.c) from ROM to the end of RDRAM.
     extern uint32_t __stage2_start[];
     uint32_t stage2_start = (uint32_t)__stage2_start;
@@ -363,4 +365,30 @@ void stage1(void)
     MEMORY_BARRIER();
     asm("move $sp, %0"::"r"(STACK2_TOP(memsize, stage2_size)));
     goto *rdram_stage2;
+#else
+    extern uint32_t _memtest_loadaddr[], _memtest_start[], _memtest_end[];
+    // debugf("Memtest load values ", (uint32_t)memtest, (uint32_t)_memtest_loadaddr, (uint32_t)_memtest_start, (uint32_t)_memtest_end);
+
+    uint32_t rom_addr = (uint32_t)_memtest_loadaddr & 0x1FFFFFFF;
+    uint32_t ram_addr = (uint32_t)_memtest_start & 0x1FFFFFFF;
+    uint32_t length = (uint32_t)_memtest_end - (uint32_t)_memtest_start;
+
+    *PI_DRAM_ADDR = ram_addr;
+    *PI_CART_ADDR = rom_addr;
+    *PI_WR_LEN = length - 1;
+
+    cop0_clear_cache();
+
+    while (*PI_STATUS & 1) {}
+
+    inst_cache_fill(_memtest_start, length);
+    rsp_bzero_async(0xA0000000, length);
+    rsp_bzero_async(memsize - TOTAL_RESERVED_SIZE, TOTAL_RESERVED_SIZE);
+
+    while (*SP_DMA_BUSY) {}
+
+    MEMORY_BARRIER();
+    asm ("li $sp, %0"::"i"((uint32_t)SP_DMEM + 4096 - 0x10));
+    memtest(memsize);
+#endif
 }

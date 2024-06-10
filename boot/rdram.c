@@ -200,13 +200,13 @@ static int rdram_reg_w_mode(int nchip, bool auto_current, uint8_t cci)
 {
     uint8_t cc = cci ^ 0x3F;   // invert bits to non inverted value
     enum { 
-        FR = 1 << 12,
         CURRENT_CONTROL_AUTO = 1 << 7, // Set auto current mode
+        X2 = 1 << 6,
         AUTO_SKIP = 1 << 2, // ?
         DEVICE_EN = 1 << 1, // Enable direct chip configuration (even without broadcast)
     };
 
-    uint32_t value = DEVICE_EN | AUTO_SKIP | FR;
+    uint32_t value = DEVICE_EN | AUTO_SKIP | X2;
     if (auto_current) value |= CURRENT_CONTROL_AUTO;
     value |= CCVALUE(cc);
 
@@ -330,7 +330,7 @@ int rdram_init(void (*bank_found)(int chip_id, bool last))
     // Start current calibration. This is necessary to ensure the RAC outputs
     // the correct current value to talk to RDRAM chips.
     *RI_CONFIG = RI_CONFIG_AUTO_CALIBRATION;   // Turn on the RI auto current calibration
-    wait(0x100);                               // Wait for calibration
+    wait(8800);                                // Wait for calibration
     *RI_CURRENT_LOAD = 0;                      // Apply the calibrated value
     
     // Activate communication with RDRAM chips. We can't do this before current calibration
@@ -352,7 +352,7 @@ int rdram_init(void (*bank_found)(int chip_id, bool last))
         INVALID_ID = RDRAM_MAX_DEVICE_ID - 2,
     };
     rdram_reg_w_deviceid(RDRAM_BROADCAST, INITIAL_ID);
-    rdram_reg_w(RDRAM_BROADCAST, RDRAM_REG_MODE, (1<<12)|(1<<2));
+    rdram_reg_w(RDRAM_BROADCAST, RDRAM_REG_MODE, (1<<6)|(1<<2));
     rdram_reg_w(RDRAM_BROADCAST, RDRAM_REG_REF_ROW, 0);
 
     // Initialization loop
@@ -366,7 +366,7 @@ int rdram_init(void (*bank_found)(int chip_id, bool last))
         rdram_reg_w_deviceid(INITIAL_ID, chip_id);
 
         // Turn on the chip (set DE=1)
-        rdram_reg_w(chip_id, RDRAM_REG_MODE, (1<<12) | (1<<1) | (1<<2));
+        rdram_reg_w(chip_id, RDRAM_REG_MODE, (1<<6) | (1<<1) | (1<<2));
 
         // Check if the DE bit was turned on. If it's not, a chip is not present
         // and we can abort the initialization loop.
@@ -384,7 +384,7 @@ int rdram_init(void (*bank_found)(int chip_id, bool last))
         // Calibrate the chip current. n64brew suggests to do 4 attempts here
         // but our tests seem to indicate that results are really stable and
         // a single attempt seems enough.
-        enum { NUM_CALIBRATION_ATTEMPTS = 1 };
+        enum { NUM_CALIBRATION_ATTEMPTS = 4 };
         int weighted_cc = 0;
         for (int i=0; i<NUM_CALIBRATION_ATTEMPTS; i++) {
             int cc = rdram_calibrate_current(chip_id);

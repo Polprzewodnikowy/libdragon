@@ -49,6 +49,7 @@ typedef uint64_t u_uint64_t __attribute__((aligned(1)));
 #define INDEX_LOAD_TAG			1
 #define INDEX_STORE_TAG			2
 #define INDEX_CREATE_DIRTY      3
+#define FILL                    5
 #define BUILD_CACHE_OP(o,c)		(((o) << 2) | (c))
 #define INDEX_WRITEBACK_INVALIDATE_D	BUILD_CACHE_OP(INDEX_INVALIDATE,CACHE_D)
 #define INDEX_STORE_TAG_I              	BUILD_CACHE_OP(INDEX_STORE_TAG,CACHE_I)
@@ -56,6 +57,7 @@ typedef uint64_t u_uint64_t __attribute__((aligned(1)));
 #define INDEX_LOAD_TAG_I              	BUILD_CACHE_OP(INDEX_LOAD_TAG,CACHE_I)
 #define INDEX_LOAD_TAG_D                BUILD_CACHE_OP(INDEX_LOAD_TAG,CACHE_D)
 #define INDEX_CREATE_DIRTY_D            BUILD_CACHE_OP(INDEX_CREATE_DIRTY,CACHE_D)
+#define FILL_I                          BUILD_CACHE_OP(FILL,CACHE_I)
 
 
 #define SP_RSP_ADDR     ((volatile uint32_t*)0xa4040000)
@@ -200,12 +202,24 @@ static inline void data_cache_writeback_invalidate_all(void)
     cache_op((void*)0x80000000, INDEX_WRITEBACK_INVALIDATE_D, 0x10, 0x2000);
 }
 
+static inline void inst_cache_fill(volatile void * addr, unsigned long length)
+{
+    cache_op(addr, FILL_I, 0x20, length);
+}
+
 static inline void cop0_clear_cache(void)
 {
     asm("mtc0 $0, $28");  // TagLo
     asm("mtc0 $0, $29");  // TagHi
     cache_op4((void*)0x80000000, INDEX_STORE_TAG_D, 0x10, 0x2000);
     cache_op4((void*)0x80000000, INDEX_STORE_TAG_I, 0x20, 0x4000);
+}
+
+static inline void cop0_clear_dcache(void)
+{
+    asm("mtc0 $0, $28");  // TagLo
+    asm("mtc0 $0, $29");  // TagHi
+    cache_op4((void*)0x80000000, INDEX_STORE_TAG_D, 0x10, 0x2000);
 }
 
 __attribute__((noreturn))
